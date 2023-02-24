@@ -1,0 +1,27 @@
+git một hệ thống quản lý phiên bản phân tán (DVCS là viết tắt của "distributed version control system") mã nguồn mở 
+Ưu điểm : 
+tránh mất dữ liệu khi chuyển sang máy khác
+đảm bảo an toàn dữ liệu : git sẽ giúp người dùng quản lý bằng các "commit" tránh trường hợp mất dữ liệu so với việc quản lý của một kho lưu trữ 
+ git đảm bảo an toàn cho các kho dữ liệu
+ local git : 
+   + distributed : so that connectivity doesn't block work / 
+   + easy so that learning its commands can happen progressively  
+History Tracking 
+   Time and version : 
+  1 create document 
+  2 spelling correction 
+  3 grammar fix 
+  4 color change 
+  5 feature description 
+  6 company logo
+ Developer project  
+  - $ git init myproject : dùng để ghi tên dự án của bạn 
+  - $ cd myproject : tạo ra thư mục cho dự án và có thể lưu hình ảnh , mã nguồn , tư liệu , cũng như kiểm soátđược các yếu tố  
+  - $ git add . : vùng lưu trữ và luôn sẵn sàng cam kết vĩnh viễn 
+  - $ git commit -m " Importing all the code "  ghi lại version and snapshot  của the files  khi chúng tồn tại ở 1 thời điểm nhất định 
+ Collaborcative Git is the way different people can work on the same project together : mọi người không cùng làm chung thời gian hay cùng pc nhưng có thể làm chung được dự án với nhau 
+Distributed Git là sự phân tán  thay vì chúng ta phải "check out" source code thì giờ đây chúng ta có thể "clone" all kho lưu trữ đó (repository)
+
+
+Advanced Git 
+
